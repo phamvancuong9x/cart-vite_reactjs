@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+  border: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+.container {
+  /* max-width: 600px; */
+  /* text-align: center; */
+}
+.breadcrumbs__content-title {
+  text-align: center;
+  padding: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(153, 230, 249);
+  padding: 40px 40px;
+  margin-bottom: 20px;
+}
+.icon_cart {
+  font-size: 24px;
+}
+.product_image {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+.detailProduct__quantity-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon_cart {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.cart {
+  padding-top: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+h4 {
+  max-width: 800px;
+  margin: auto;
+}
+.total-amount {
+  position: absolute;
+  top: -37%;
+  right: -88%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.quantity,
+.icon-minus-modal,
+.icon-plus-modal {
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+}
+
+.quantity {
+  width: 60px;
+}
+.icon-minus-modal:hover,
+.icon-plus-modal:hover,
+.remove_btn:hover {
+  cursor: pointer;
+  color: rgb(247, 243, 26);
+}
+.product_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  text-align: center;
+  display: block;
+}
+.btn-clear {
+  padding: 10px 30px;
+  margin: 20px;
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
